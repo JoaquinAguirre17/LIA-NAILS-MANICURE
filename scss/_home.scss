@@ -1,0 +1,17 @@
+.main_home{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "frase1 frase1"
+    "frase2 frase2";
+    .titulo{
+        grid-area: titulo;
+        margin: 20px;
+       
+    }
+    .texto1{
+        grid-area: frase1;
+        text-align: center;
+        font-size: xx-large;
+    }
+}

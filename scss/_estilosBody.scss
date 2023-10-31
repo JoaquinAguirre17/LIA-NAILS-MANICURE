@@ -1,0 +1,14 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+/*-------------------------Grillas generales-----------------*/
+body{
+    display: grid;
+    grid-template-areas: 
+    "navegacion"
+    "main";
+    
+   
+}

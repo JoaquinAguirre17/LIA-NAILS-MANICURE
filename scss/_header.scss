@@ -1,0 +1,34 @@
+/*-------------------------HEADER Y BARRA DE NAVEGACION--------------------------------------*/
+header{
+    grid-area:navegacion;
+   
+    nav{
+        background-color: #f10085af; 
+       display: flex;
+        .tituloh1{
+            color: white;
+            text-decoration: underline;
+           
+        }
+        .nav-link{
+            color: white;
+        }
+        .navbar-toggler{
+            background-color: gray;
+        }
+        .dropdown-menu{
+            background-color:rgba(197, 19, 220, 0.415);
+            border-style: solid;
+            border-color: rgb(61, 2, 57);
+            a{
+                color: white;
+            }
+           
+        }
+        .offcanvas{
+            background-color:rgba(1, 0, 1, 0.422);
+        }
+    }
+    
+
+}
